@@ -205,7 +205,7 @@ Resources:
       - IpProtocol: tcp
         FromPort: 22
         ToPort: 22
-        CidrIp: xxx.xxx.xxx.xxx
+        CidrIp: 0.0.0.0/0
 
   # Target Group, Listener and Application  Load Balancer
   EC2TargetGroup:
